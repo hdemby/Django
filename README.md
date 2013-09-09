@@ -32,10 +32,14 @@ $> git commit -m 'first commit'
 Commits your files, adding the message "first commit"
 
 How To Push your local to the repository:
-$> git remote add origin https://github.com/username/Hello-World.git
+$> git remote add origin https://hdemby@github.com/username/Django.git
 
 Creates a remote named "origin" pointing at your GitHub repository
 
 $> git push origin master
 
 Sends your commits in the "master" branch to GitHub
+
+How to clone the repository
+
+$> git clone http://github.com/hdemby/Django.git
