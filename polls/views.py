@@ -16,8 +16,7 @@ class IndexView(generic.ListView):
         """ Return the last five published polls (not including those set to
         be  published in the future).
         """
-        return
-Poll.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5 ]
+        return Poll.objects.order_by('-pub_date')[:5 ]
 
 
 class DetailView(generic.DetailView):
