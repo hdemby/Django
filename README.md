@@ -4,6 +4,7 @@ Django
 Django practice area
 
 How to create a local git instance
+
 $> mkdir ~/Hello-World 
 
 Creates a directory for your project called "Hello-World" in your user directory
